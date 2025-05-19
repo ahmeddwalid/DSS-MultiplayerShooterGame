@@ -403,3 +403,40 @@ This addresses the "Parameter Passing" RMI rubric item.
 5. All subsequent real-time game communication (player actions, host notifications, ACKs, game state updates) occurs over this socket connection using the custom `Message` protocol.
 
 *(Mechanisms like Logical Clocks (for socket messages), Event Ordering & Tie-Breaking (for socket actions), TO-Multicast (for socket actions), Game State Management, Action Processing, and Cheating Prevention operate as described in the previous "Comprehensive Documentation (Reverted)", but now within the context of the socket communication channel established after RMI initialization.)*
+
+
+# Contributing
+
+Project's Link: [https://github.com/ahmeddwalid/DSS-MultiplayerShooterGame](https://github.com/ahmeddwalid/DSS-MultiplayerShooterGame)
+
+Any contributions you make are **greatly appreciated**.
+
+## How to Contribute
+
+If you'd like to contribute, please follow these steps:
+
+-  **Fork the repository:** Create your own copy of the project.
+-  **Create a branch:** `git checkout -b feature/your-feature-name`
+-  **Make your changes:** Implement your contribution.
+-  **Commit your changes:** `git commit -m "Add your descriptive commit message"`
+-  **Push to the branch:** `git push origin feature/your-feature-name`
+-  **Create a pull request:** Submit your changes for review.
+
+### Contribution Guidelines
+
+- Write clear and concise commit messages.
+- Provide detailed explanations in your pull requests.
+- Be respectful and considerate of other contributors.
+
+Thank you for your contributions!
+
+# License
+
+This project is distributed under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/). See
+[```LICENSE.txt```](/LICENSE.txt) for more information.
+
+# Acknowledgments
+
+* [Java Documentation](https://docs.oracle.com/en/java/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
