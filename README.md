@@ -6,10 +6,10 @@
   <p align="center">  
     Distributed Systems Security  
     <br />  
- <a href="https://github.com/DSS-MultiplayerShooterGame"><strong>Explore the docs »</strong></a>  
- <br /> <br /> <a href="https://github.com/DSS-MultiplayerShooterGame">Report Bug</a>  
+ <a href="https://github.com/ahmeddwalid/DSS-MultiplayerShooterGame"><strong>Explore the docs »</strong></a>  
+ <br /> <br /> <a href="https://github.com/ahmeddwalid/DSS-MultiplayerShooterGame/issues">Report Bug</a>  
     ·  
-    <a href="https://github.com/DSS-MultiplayerShooterGame">Request Feature</a>  
+    <a href="https://github.com/ahmeddwalid/DSS-MultiplayerShooterGame/pulls">Request Feature</a>  
   </p>  
 </div>  
 
