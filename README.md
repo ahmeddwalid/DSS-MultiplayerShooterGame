@@ -33,8 +33,6 @@ This project implements a multiplayer shooter game designed to demonstrate key c
 * **Sequential Player Naming**: Players are assigned IDs like "Player1", "Player2", etc., by the host.
 
 ### 1.3. Technologies Used
-* **Language**: Java
-* **Application Entry**: Single `Main.java` for choosing host/client role.
 * **Remote Invocation**: Java RMI (`java.rmi.*`) for initial client-host registration and parameter exchange.
 * **Network Sockets**: Java Sockets (`java.net.Socket`, `java.net.ServerSocket`) for TCP/IP based real-time game event communication.
 * **Object Serialization**: `java.io.ObjectInputStream` and `java.io.ObjectOutputStream` for transmitting Java objects.
@@ -405,8 +403,3 @@ This addresses the "Parameter Passing" RMI rubric item.
 5. All subsequent real-time game communication (player actions, host notifications, ACKs, game state updates) occurs over this socket connection using the custom `Message` protocol.
 
 *(Mechanisms like Logical Clocks (for socket messages), Event Ordering & Tie-Breaking (for socket actions), TO-Multicast (for socket actions), Game State Management, Action Processing, and Cheating Prevention operate as described in the previous "Comprehensive Documentation (Reverted)", but now within the context of the socket communication channel established after RMI initialization.)*
-
-## 6. Security Considerations (Core Implementation)
-* **Encryption**: The `EncryptionUtil.java` class provides stubs for AES symmetric encryption. The project requirement for encrypting all transmitted messages is acknowledged. However, in this version, active encryption/decryption is **not integrated** into either the RMI calls or the socket message streams.
-    * RMI itself can be configured to use SSL/TLS for secure transport, but this is an advanced RMI feature not implemented here.
-    * Socket messages would require manual encryption of the `Message` object or its payload before sending and decryption after receiving.
